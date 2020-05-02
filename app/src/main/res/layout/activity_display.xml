@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingLeft="16dp"
+android:paddingRight="16dp" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name" />
+
+    <TextView
+        android:id="@+id/hospital_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hospital Name"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admission Date" />
+
+    <TextView
+        android:id="@+id/admission_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admission Date"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Release Date" />
+
+    <TextView
+        android:id="@+id/release_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Release Date"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="symptoms" />
+
+    <TextView
+        android:id="@+id/symptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="symptoms"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        />
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/verfiyAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:text="Verify Address" />
+
+    <Button
+        android:id="@+id/ipfsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="43dp"
+        android:text="View Records" />
+</RelativeLayout>

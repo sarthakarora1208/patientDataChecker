@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">patientDataChecker</string>
+    <string name="scan">SCAN</string>
+    <string name="or">Well Pass</string>
+    <string name="Generate">Generate</string>
+    <string name="addr">addr</string>
+    <string name="scanButton">Scan</string>
+    <string name="take_barcode_picture">Take picture</string>
+    <string name="scan_barcode">Scan Barcode</string>
+    <string name="open_camera">Open Camera</string>
+</resources>
