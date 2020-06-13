@@ -1,5 +1,5 @@
 # patientDataChecker
-Supporting android application for https://github.com/sarthakarora1208/covid-patient-tracker-backend
+Supporting android application for https://github.com/sarthakarora1208/blockchain-record-storage
 
 > Well pass is a blockchain powered identity verification application
 
